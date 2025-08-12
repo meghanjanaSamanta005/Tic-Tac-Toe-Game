@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#47bb81">
+	<link rel="stylesheet" href="style.css">
+	<title>Tic tac toe</title>
+</head>
+<body>
+	
+	<div class="header">
+		<h1>Tic Tac Toe</h1>
+	</div>
+	
+	<div id="symbol-select-container">
+		<h2>Select symbol for player 1</h2>
+		<div id="symbols">
+			<span class="symbol">X</span>
+			<span class="symbol">O</span>
+		</div>
+	</div>
+	
+	
+	<div id="game-container" class="hide">
+		
+		<div id="player-turn-container">
+			<span id="turn-indicator"></span>
+			<span id="p1"></span>
+			<span id="p2"></span>
+		</div>
+		
+		<div id="grid-container">
+			<div val="00"></div>
+			<div val="01"></div>
+			<div val="02"></div>
+			<div val="10"></div>
+			<div val="11"></div>
+			<div val="12"></div>
+			<div val="20"></div>
+			<div val="21"></div>
+			<div val="22"></div>
+		</div>
+		
+		<div id="result" class="hide">
+		</div>
+		
+	</div>
+	
+	
+	<script src="script.js"></script>
+	
+</body>
+</html>
